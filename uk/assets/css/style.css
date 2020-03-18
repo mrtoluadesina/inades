@@ -1,0 +1,62 @@
+/*!
+ * Inades Nigeria Country Styling
+ * Copyright 2019 - Rewrite Agency
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+
+ a.navbar-brand {
+   display: flex;
+ }
+
+ div.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+ }
+
+ div.logo img {
+  padding-right: .6rem;
+ }
+
+ div.logo p{
+   margin-bottom: 0;
+ }
+
+ a.navbar-brand small {
+  font-size: 40%;
+  color: #e41540;
+ }
+
+ .text-center {
+   text-align: center;
+ }
+
+ .support-framework {
+   text-align: center
+ }
+
+ .support-framework .icon {
+  font-size: 4.5rem;
+ }
+
+ .flex-m-off {
+  flex-direction: column;
+}
+
+.map-info {
+ background: #ffb400 !important;
+ border: 1px solid #ffb400 !important;
+ color: #fff !important;
+ padding: 1.5rem;
+ margin-bottom: 1.5rem;
+}
+
+ .where-we-work img {
+  width: 100%;
+}
+
+@media (min-width: 466px) {
+  .flex-m-off {
+    flex-direction: row;
+  }
+ }

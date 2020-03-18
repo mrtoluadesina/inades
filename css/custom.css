@@ -1,0 +1,82 @@
+.mg-top-3 {
+  margin-top: 3rem;
+}
+.mg-bottom-3 {
+  margin-bottom: 3rem;
+}
+.core-v {
+  background: #e41540;
+  color: #ffffff;
+}
+.core-v h2 {
+  color: #fff;
+}
+.core-v .title-block:hover {
+  background: transparent;
+}
+.ftco-counter .img.about-ftco {
+  height: unset;
+}
+.causes {
+  background-position: 50% !important;
+}
+.causes, .causes .overlay, .causes .slider-text {
+  height: 500px !important;
+}
+
+.causes:hover {
+  margin-top: 0;
+}
+
+.hero-wrap .overlay {
+  background: #000;
+}
+
+.slider-text h1 {
+  font-size: 46px;
+  padding: 1rem;
+  background: #fff;
+  color: #333333;
+}
+
+.white-text {
+  color: #ffffff !important;
+}
+
+.black-text {
+  color: #000 !important;
+}
+
+.testimony-section {
+  background: #f8f9fa;
+}
+
+.testimony-section .owl-dots .owl-dot {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.testimony-section .owl-dots .owl-dot.active {
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.flex-m-off {
+  flex-direction: column;
+}
+
+.map-info {
+ background: #ffb400 !important;
+ border: 1px solid #ffb400 !important;
+ color: #fff !important;
+ padding: 1.5rem;
+ margin-bottom: 1.5rem;
+}
+
+.where-we-work img {
+  width: 100%;
+}
+
+@media (min-width: 466px) {
+ .flex-m-off {
+   flex-direction: row;
+ }
+}
