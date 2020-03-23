@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <title>INADES</title>
-  
+
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
   <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,600,700,800,900" rel="stylesheet" />
@@ -51,13 +52,13 @@
             <a href="index.html" class="nav-link">Home</a>
           </li>
           <li class="nav-item">
-            <a href="about.html" class="nav-link">About Us</a>
+            <a href="./about.html" class="nav-link">About Us</a>
           </li>
           <li class="nav-item">
-            <a href="../volunteer" class="nav-link">Volunteer</a>
+            <a href="./volunteer" class="nav-link">Volunteer</a>
           </li>
           <li class="nav-item">
-            <a href="../causes.html" class="nav-link">Causes</a>
+            <a href="./causes/index.html" class="nav-link">Causes</a>
           </li>
           <li class="nav-item">
             <a href="../get-involved.html" class="nav-link">Get Involved</a>
@@ -66,7 +67,7 @@
             <a href="../contact.html" class="nav-link">Contact</a>
           </li>
         </ul>
-        <a href="../donate/" class="btn btn-primary py-2 px-3">Donate</a>
+        <a href="../donate.html" class="btn btn-primary py-2 px-3">Donate</a>
       </div>
     </div>
   </nav>
@@ -76,14 +77,14 @@
     <div class="overlay"></div>
     <div class="container">
       <div class="row no-gutters slider-text align-items-center justify-content-start" data-scrollax-parent="true">
-        <div class="col-md-6 order-md-last ftco-animate mt-5" data-scrollax=" properties: { translateY: '70%' }">
+        <!-- <div class="col-md-6 order-md-last ftco-animate mt-5" data-scrollax=" properties: { translateY: '70%' }">
           <h1 class="mb-4" data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">
             you can join us in solving the sanitation issues in Nigeria
           </h1>
           <p>
             <a href="#" class="btn btn-black py-3 px-4">Get Involved</a>
           </p>
-        </div>
+        </div> -->
         <!-- <div class="col-md-6 d-none d-md-block">
           <div class="play-video pb-5 d-flex align-items-center">
             <p>
@@ -97,24 +98,40 @@
     </div>
   </div>
 
-  <section id="volunteer" class="ftco-section ftco-no-pt ftco-no-pb ftco-volunteer">
+  <section id="volunteer" class="ftco-section ftco-no-pt ftco-no-pb ftco-volunteer"
+    style="box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);">
     <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-md-7 img-volunteer" style="background-color: #1e1e1e;">
-          <div class="row no-gutters justify-content-center">
+      <div class="row">
+        <div class="col-md-7 img-volunteer crisis-img">
+          <div class="row no-gutters justify-content-end">
             <div class="col-lg-7">
-              <div class="text py-5 pl-md-4 pr-md-3">
-                <h2 class="mb-4 white-text">Events</h2>
-                <p><span>August 17:</span> World Humanitarian Day Community outreach </p>
-                <p><span>Sept 27th - 28th:</span> Africa Forum New York at Commonwealth Africa Initiative </p>
+              <div class="text py-5">
+                <div class="causes causes-2 py-5">
+                  <h2 class="mb-4">Sanitation Crises in Nigeria</h2>
+                  <p>Nigeria is the worst country in Africa and the third worst globally for urban sanitation and open
+                    defecation ranking after India with more than 54 million urban dwellers (67.2% of the population)
+                    living without access to a safe toilet facility. The number of households in Nigeria with access to
+                    sanitation has declined by 9.1 percentage points since 1990. This is the second-greatest decrease of
+                    38 countries with measurable data in Sub-Saharan Africa. The Country is set to overtake India in the
+                    open defecation ranking.</p>
+                  <p><a href="./causes/sanaqualav.html" class="btn btn-primary py-3 px-3 my-3">Read More</a></p>
+                </div>
               </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-5 d-flex align-items-center bg-black">
+          <div class="about-text py-5 pl-md-5 white-text">
+            <div class="text py-5 pl-md-4 pr-md-3">
+              <h2 class="mb-4 white-text">Events</h2>
+              <p><span>August 17:</span> World Humanitarian Day Community outreach </p>
+              <p><span>Sept 27th - 28th:</span> Africa Forum New York at Commonwealth Africa Initiative </p>
             </div>
           </div>
         </div>
       </div>
     </div>
   </section>
-
   <section class="services-section py-5 py-md-0 bg-light">
     <div class="container">
       <div class="row no-gutters d-flex">
@@ -123,7 +140,9 @@
             <div class="media-body">
               <h3 class="heading mb-3">Free, clean and accessible toilets across the nation</h3>
               <p>
-                We aim to provide free, standard, green and sustainable toilet facilities for the public, strategically placing them in areas of intense public activities like bus garages, markets and schools. To meet the demand of use by the public
+                We aim to provide free, standard, green and sustainable toilet facilities for the public, strategically
+                placing them in areas of intense public activities like bus garages, markets and schools. To meet the
+                demand of use by the public
               </p>
             </div>
           </div>
@@ -134,7 +153,8 @@
               <h3 class="heading mb-3">Indulge the public to proper toilet use.
               </h3>
               <p>
-                Use mediums in toilets provided to Re-orientate the users and public as a whole to imbibe a culture of proper defecation and general hygiene.
+                Use mediums in toilets provided to Re-orientate the users and public as a whole to imbibe a culture of
+                proper defecation and general hygiene.
               </p>
             </div>
           </div>
@@ -144,7 +164,8 @@
             <div class="media-body">
               <h3 class="heading mb-3">Create Open defecation free communities
               </h3>
-              <p>Ending the country’s struggle with of open defecation across from one community to another. Removing the nation from top ranking of open defecation countries.
+              <p>Ending the country’s struggle with of open defecation across from one community to another. Removing
+                the nation from top ranking of open defecation countries.
               </p>
             </div>
           </div>
@@ -153,7 +174,8 @@
           <div class="media block-6 services d-block">
             <div class="media-body">
               <h3 class="heading mb-3">Achieve ethical living and well-being of citizens</h3>
-              <p>When there is one less thing to worry about, there is room for further development to make citizens achieve their full potentials.
+              <p>When there is one less thing to worry about, there is room for further development to make citizens
+                achieve their full potentials.
               </p>
             </div>
           </div>
@@ -189,13 +211,16 @@
             security and dignity for people when they defecate or urinate.
           </p>
           <p>
-              Open defecation comes with many risks. It can lead to waterborne diseases, cause preventable deaths, and hamper education and economic growth.
+            Open defecation comes with many risks. It can lead to waterborne diseases, cause preventable deaths, and
+            hamper education and economic growth.
           </p>
           <p>
-              Our solution works in line with the UN SDG 2030 to provide equitable access to water, sanitation and hygiene services in order to eradicate the practice of open defecation.
+            Our solution works in line with the UN SDG 2030 to provide equitable access to water, sanitation and hygiene
+            services in order to eradicate the practice of open defecation.
           </p>
           <p>
-              Eradicating open defecation is not just a Nigerian priority. Today, an estimated 4.5 billion people globally don't have access to safe sanitation. 
+            Eradicating open defecation is not just a Nigerian priority. Today, an estimated 4.5 billion people
+            globally don't have access to safe sanitation. 
           </p>
         </div>
       </div>
@@ -211,7 +236,7 @@
               Open defecation has become a common phenomenon in developing and
               underdeveloped nations, especially in Nigeria.
             </p>
-            <p><a href="../causes/sanaqualav.html" class="btn btn-primary py-3 px-4">Read More</a></p>
+            <p><a href="./causes/sanaqualav.html" class="btn btn-primary py-3 px-3 my-3">Read More</a></p>
           </div>
         </div>
       </div>
@@ -226,12 +251,16 @@
             <div class="media-body">
               <h3 class="heading mb-3">Partnerships</h3>
               <ul class="partner-list">
-                <li><a href="http://www.agpmpn.org/" target="_blank"><img src="./assets/img/agpmpn.jpg" alt="partner" /></a></li>
-                <li><a href="http://nuc.edu.ng/" target="_blank"><img src="./assets/img/nuc.jpg" alt="partner" /></a></li>
+                <li><a href="http://www.agpmpn.org/" target="_blank"><img src="./assets/img/agpmpn.jpg"
+                      alt="partner" /></a></li>
+                </li>
                 <li><a href="#" target="_blank"><img src="./assets/img/nurwt.jpg" alt="partner" /></a></li>
-                <li><a href="http://www.ncceonline.edu.ng/" target="_blank"><img src="./assets/img/nccce.png" alt="partner" /></a></li>
-                <li><a href="https://net.nbte.gov.ng/" target="_blank"><img src="./assets/img/nbte.jpg" alt="partner" /></a></li>
-                <li><a href="http://www.whitebricks.com/" target="_blank"><img src="./assets/img/whitebricks.png" alt="partner" /></a></li>
+                <li><a href="http://www.ncceonline.edu.ng/" target="_blank"><img src="./assets/img/nccce.png"
+                      alt="partner" /></a></li>
+                <li><a href="https://net.nbte.gov.ng/" target="_blank"><img src="./assets/img/nbte.jpg"
+                      alt="partner" /></a></li>
+                <li><a href="http://www.whitebricks.com/" target="_blank"><img src="./assets/img/whitebricks.png"
+                      alt="partner" /></a></li>
               </ul>
             </div>
           </div>
@@ -246,7 +275,13 @@
         <div class="col-md-12 d-flex flex-m-off">
           <div class="col-md-4">
             <div class="map-info">
-                <p>Nigeria is an African country located on the western coast of Africa, featuring 36 states and its Federal Capital Territory, which is known as Abuja. The current population of Nigeria is 200,856,374. Nigeria is the most populated country in Africa and 7th in the world, accounting for about of the African pollution and population is equivalent to over 2.6% of the total world population. Nigeria has a population density in Nigeria is 221 per Km2 (571 people per mi2) with a total land area is 910,770 Km2 (351,650 sq. miles). 51.9% of the population is urban (104,282,822 people) in 2019. The median age distribution in Nigeria is 17.9 years.</p>
+              <p>Nigeria is an African country located on the western coast of Africa, featuring 36 states and its
+                Federal Capital Territory, which is known as Abuja. The current population of Nigeria is 200,856,374.
+                Nigeria is the most populated country in Africa and 7th in the world, accounting for about of the
+                African pollution and population is equivalent to over 2.6% of the total world population. Nigeria has a
+                population density in Nigeria is 221 per Km2 (571 people per mi2) with a total land area is 910,770 Km2
+                (351,650 sq. miles). 51.9% of the population is urban (104,282,822 people) in 2019. The median
+                age distribution in Nigeria is 17.9 years.</p>
             </div>
           </div>
           <div class="col-md-8 where-we-work text-center">
@@ -255,10 +290,10 @@
         </div>
         <div class="col-md-12 d-flex justify-content-center">
           <h3 class="px-5">
-              Estimated population: <strong class="number" data-number="200856374">0</strong>
+            Estimated population: <strong class="number" data-number="200856374">0</strong>
           </h3>
           <h3>
-              LGA: <strong class="number" data-number="774">0</strong>
+            LGA: <strong class="number" data-number="774">0</strong>
           </h3>
         </div>
       </div>
@@ -266,63 +301,67 @@
   </section>
 
   <section class="testimony-section">
-      <div class="container">
-        <div class="row ftco-animate justify-content-center">
-        	<div class="col-md-6 d-flex">
-        		<div class="testimony-img" style="background-image: url(../images/testimony-img.png);"></div>
-        	</div>
-          <div class="col-md-6 py-5">
-          	<div class="heading-section heading-section-white pt-4 ftco-animate">
-		          <h2 class="mb-0 black-text">Do you know</h2>
-		        </div>
-            <div class="carousel-testimony owl-carousel ftco-owl">
-              <div class="item">
-                <div class="testimony-wrap pb-4">
-                  <div class="text">
-                    <p class="mb-4 black-text">123 million people don’t have a decent toilet, that is seven in 10 people, who are more likely to be ill, more often.</p>
-                  </div>
+    <div class="container">
+      <div class="row ftco-animate justify-content-center">
+        <div class="col-md-6 d-flex">
+          <div class="testimony-img" style="background-image: url(../images/testimony-img.png);"></div>
+        </div>
+        <div class="col-md-6 py-5">
+          <div class="heading-section heading-section-white pt-4 ftco-animate">
+            <h2 class="mb-0 black-text">Do you know</h2>
+          </div>
+          <div class="carousel-testimony owl-carousel ftco-owl">
+            <div class="item">
+              <div class="testimony-wrap pb-4">
+                <div class="text">
+                  <p class="mb-4 black-text">123 million people don’t have a decent toilet, that is seven in 10 people,
+                    who are more likely to be ill, more often.</p>
                 </div>
               </div>
-              <div class="item">
-                <div class="testimony-wrap pb-4">
-                  <div class="text">
-                    <p class="mb-4 black-text">Almost 1 in 4 Nigerians, around 50 million people defecate in open areas.</p>
-                  </div>
+            </div>
+            <div class="item">
+              <div class="testimony-wrap pb-4">
+                <div class="text">
+                  <p class="mb-4 black-text">Almost 1 in 4 Nigerians, around 50 million people defecate in open areas.
+                  </p>
                 </div>
               </div>
-              <div class="item">
-                <div class="testimony-wrap pb-4">
-                  <div class="text">
-                    <p class="mb-4 black-text">62 million children in Nigeria do not have access to a decent toilet at home, with about 52% of schools around the nation lacking basic sanitation facilities.</p>
-                  </div>
+            </div>
+            <div class="item">
+              <div class="testimony-wrap pb-4">
+                <div class="text">
+                  <p class="mb-4 black-text">62 million children in Nigeria do not have access to a decent toilet at
+                    home, with about 52% of schools around the nation lacking basic sanitation facilities.</p>
                 </div>
               </div>
-              <div class="item">
-                <div class="testimony-wrap pb-4">
-                  <div class="text">
-                    <p class="mb-4 black-text">Only 26.5 per cent of the population use improved drinking water sources and sanitation facilities.</p>
-                  </div>
+            </div>
+            <div class="item">
+              <div class="testimony-wrap pb-4">
+                <div class="text">
+                  <p class="mb-4 black-text">Only 26.5 per cent of the population use improved drinking water sources
+                    and sanitation facilities.</p>
                 </div>
               </div>
-              <div class="item">
-                <div class="testimony-wrap pb-4">
-                  <div class="text">
-                    <p class="mb-4 black-text">Nigeria Ranks second in global open defecation ranking after India</p>
-                  </div>
+            </div>
+            <div class="item">
+              <div class="testimony-wrap pb-4">
+                <div class="text">
+                  <p class="mb-4 black-text">Nigeria Ranks second in global open defecation ranking after India</p>
                 </div>
               </div>
-              <div class="item">
-                <div class="testimony-wrap pb-4">
-                  <div class="text">
-                    <p class="mb-4 black-text">59,500 children under five die a year, due to poor water and sanitation</p>
-                  </div>
+            </div>
+            <div class="item">
+              <div class="testimony-wrap pb-4">
+                <div class="text">
+                  <p class="mb-4 black-text">59,500 children under five die a year, due to poor water and sanitation</p>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
   <footer class="ftco-footer ftco-section">
     <div class="container">
@@ -336,10 +375,13 @@
               enhancement.
             </p>
             <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
-                <li class="ftco-animate"><a href="https://twitter.com/inadesngo"><span class="icon-twitter"></span></a></li>
-                <li class="ftco-animate"><a href="https://facebook.com/inadesngo"><span class="icon-facebook"></span></a></li>
-                <li class="ftco-animate"><a href="https://instagram.com/inadesngo.ng"><span class="icon-instagram"></span></a></li>
-              </ul>
+              <li class="ftco-animate"><a href="https://twitter.com/inadesngo"><span class="icon-twitter"></span></a>
+              </li>
+              <li class="ftco-animate"><a href="https://facebook.com/inadesngo"><span class="icon-facebook"></span></a>
+              </li>
+              <li class="ftco-animate"><a href="https://instagram.com/inadesngo.ng"><span
+                    class="icon-instagram"></span></a></li>
+            </ul>
           </div>
         </div>
         <div class="col-md">
@@ -370,13 +412,15 @@
             <div class="block-23 mb-3">
               <ul>
                 <li>
-                  <span class="icon icon-map-marker"></span><span class="text">22 Rainbow Drive, off Kudirat Abiola Way, Oregun, Ikeja, Lagos, Nigeria.</span>
+                  <span class="icon icon-map-marker"></span><span class="text">22 Rainbow Drive, off Kudirat Abiola Way,
+                    Oregun, Ikeja, Lagos, Nigeria.</span>
                 </li>
                 <li>
                   <a href="#"><span class="icon icon-phone"></span><span class="text">+2349025963115</span></a>
                 </li>
                 <li>
-                  <a href="#"><span class="icon icon-envelope"></span><span class="text">infonigeria@inades.org</span></a>
+                  <a href="#"><span class="icon icon-envelope"></span><span
+                      class="text">infonigeria@inades.org</span></a>
                 </li>
               </ul>
             </div>
@@ -391,7 +435,8 @@
             <script>
               document.write(new Date().getFullYear());
             </script>
-            All rights reserved | Designed with <i class="icon-heart color-danger" aria-hidden="true"></i> by the awesome team at <a href="https://rewrite.agency" target="_blank">Rewrite</a>
+            All rights reserved | Designed with <i class="icon-heart color-danger" aria-hidden="true"></i> by the
+            awesome team at <a href="https://rewrite.agency" target="_blank">Rewrite</a>
             <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
           </p>
         </div>
