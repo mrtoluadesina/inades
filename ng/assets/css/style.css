@@ -82,8 +82,21 @@
    width: 100%;
  }
 
+ .crisis-img{
+   background-image: url('../../../images/sanaqualav-banner.jpg');
+  background-color: #f7f7f7; 
+  background-position: -140vh!important;
+
+ }
+
  @media (min-width: 466px) {
   .flex-m-off {
     flex-direction: row;
   }
+ }
+
+ @media (max-width: 576px) {
+   .crisis-img{
+     background-image: none;
+   }
  }
