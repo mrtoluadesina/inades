@@ -8698,6 +8698,10 @@ textarea.form-control {
       -webkit-transition: all 0.3s ease;
       -ms-transition: all 0.3s ease;
       transition: all 0.3s ease; }
+      .causes .img-big {
+        width: 320px;
+        height: 320px;
+      }
   .causes h2 {
     font-size: 20px;
     font-weight: 900; }

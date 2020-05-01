@@ -48,17 +48,18 @@ main {
   color: #eaeaea;
   display: flex;
   align-items: flex-end;
-  font-size: 18px;
+  font-size: 24px;
   font-weight: 900;
 }
 
 .main-content .logo img {
   margin-right: 0.5rem; 
+  width: 40px;
 }
 
 .main-content .logo span {
   color: #ff0000;
-  font-size: 20px;
+  font-size: 28px;
   margin-left: 0.15rem;
 }
 
