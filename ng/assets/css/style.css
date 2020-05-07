@@ -4,112 +4,111 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 
- a.navbar-brand {
-   display: flex;
- }
+a.navbar-brand {
+  display: flex;
+}
 
- div.logo {
+div.logo {
   display: flex;
   flex-direction: row;
   align-items: center;
- }
+}
 
- .slider-text h1 {
+.slider-text h1 {
   font-size: 30px;
 }
 
- div.logo img {
-  padding-right: .6rem;
- }
+div.logo img {
+  padding-right: 0.6rem;
+}
 
- div.logo p{
-   margin-bottom: 0;
- }
+div.logo p {
+  margin-bottom: 0;
+}
 
- a.navbar-brand small {
+a.navbar-brand small {
   font-size: 40%;
   color: #51ac4e;
- }
+}
 
- .text-center {
-   text-align: center;
- }
+.text-center {
+  text-align: center;
+}
 
- .no-click {
-   cursor: auto;
- }
+.no-click {
+  cursor: auto;
+}
 
- .about-text H3 {
-   color: #f5f5f5;
-   letter-spacing: .1rem;
- }
+.about-text H3 {
+  color: #f5f5f5;
+  letter-spacing: 0.1rem;
+}
 
- .partners {
-   width: 100%;
- }
+.partners {
+  width: 100%;
+}
 
- .partner-list {
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   flex-wrap: wrap;
-   margin-bottom: 0px;
-   padding-left: 0px;
- }
+.partner-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 0px;
+  padding-left: 0px;
+}
 
- .partner-list li {
-   list-style: none;
-   padding: 1rem 2.5rem;
- }
+.partner-list li {
+  list-style: none;
+  padding: 1rem 2.5rem;
+}
 
- .partner-list li img {
-   width: 100px;
- }
+.partner-list li img {
+  width: 100px;
+}
 
- .flex-m-off {
-   flex-direction: column;
- }
+.flex-m-off {
+  flex-direction: column;
+}
 
- .map-info {
+.map-info {
   background: #ffb400 !important;
   border: 1px solid #ffb400 !important;
   color: #fff !important;
   padding: 1.5rem;
   margin-bottom: 1.5rem;
- }
+}
 
- .where-we-work img {
-   width: 100%;
- }
+.where-we-work img {
+  width: 100%;
+}
 
- .crisis-img{
-   background-image: url('../../../images/sanaqualav-banner.jpg');
-  background-color: #f7f7f7; 
-  background-position: -140vh!important;
+.crisis-img {
+  background-image: url("../../../images/sanaqualav-banner.jpg");
+  background-color: #f7f7f7;
+  background-position: -140vh !important;
+}
 
- }
-
- .causes .img-big {
+.causes .img-big {
   width: 280px;
   height: 280px;
 }
 
- @media (min-width: 466px) {
-   ..slider-text h1 {
+@media (min-width: 466px) {
+  .slider-text h1 {
     font-size: 40px;
   }
   .flex-m-off {
     flex-direction: row;
   }
- }
+}
 
- @media (max-width: 576px) {
-   .crisis-img{
-     background-image: none;
-   }
- }
+@media (max-width: 576px) {
+  .crisis-img {
+    background-image: none;
+  }
+}
 
- @media (min-width: 768px) {
+@media (min-width: 768px) {
   .slider-text h1 {
     font-size: 50px;
   }
@@ -117,4 +116,4 @@
     width: 320px;
     height: 320px;
   }
- }
+}
