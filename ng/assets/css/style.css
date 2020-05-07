@@ -15,7 +15,7 @@
  }
 
  .slider-text h1 {
-  font-size: 50px;
+  font-size: 30px;
 }
 
  div.logo img {
@@ -89,7 +89,15 @@
 
  }
 
+ .causes .img-big {
+  width: 280px;
+  height: 280px;
+}
+
  @media (min-width: 466px) {
+   ..slider-text h1 {
+    font-size: 40px;
+  }
   .flex-m-off {
     flex-direction: row;
   }
@@ -99,4 +107,14 @@
    .crisis-img{
      background-image: none;
    }
+ }
+
+ @media (min-width: 768px) {
+  .slider-text h1 {
+    font-size: 50px;
+  }
+  .causes .img-big {
+    width: 320px;
+    height: 320px;
+  }
  }

@@ -43,6 +43,10 @@
   background-position: center 40%;
 }
 
+.slider-text .bread {
+  font-size: 40px;
+}
+
 .white-text {
   color: #ffffff !important;
 }
@@ -83,4 +87,10 @@
  .flex-m-off {
    flex-direction: row;
  }
+}
+
+@media (min-width: 768px) {
+  .slider-text .bread {
+    font-size: 60px;
+}
 }
