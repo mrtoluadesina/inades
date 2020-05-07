@@ -39,6 +39,10 @@
   color: #333333;
 }
 
+.ftco-volunteer .img-volunteer.img-40-up {
+  background-position: center 40%;
+}
+
 .white-text {
   color: #ffffff !important;
 }

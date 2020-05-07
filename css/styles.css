@@ -93,6 +93,10 @@ main {
   margin: 1rem;
 }
 
+.main-content .countries a .country img {
+  width: 100%;
+}
+
 .main-content .countries a:hover .country {
   border: 2px solid #cccccc;
 }

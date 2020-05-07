@@ -39,12 +39,19 @@
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav ml-auto">
 	        	<li class="nav-item"><a href="./index.html" class="nav-link">Home</a></li>
-	        	<li class="nav-item active"><a href="./about.html" class="nav-link">About Us</a></li>
-	        	<li class="nav-item"><a href="./causes/index.html" class="nav-link">Causes</a></li>
-	          <li class="nav-item"><a href="../get-involved.html" class="nav-link">Get Involved</a></li>
-	          <li class="nav-item"><a href="../contact.html" class="nav-link">Contact</a></li>
+	        	<li class="nav-item active"><a href="about.html" class="nav-link">About Us</a></li>
+	        	<!-- <li class="nav-item"><a href="causes/index.html" class="nav-link">Causes</a></li> -->
+	          <li class="nav-item"><a href="get-involved.html" class="nav-link">Get Involved</a></li>
+	          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
 	        </ul>
-          <a href="../donate.html" class="btn btn-primary py-2 px-3">Donate</a>
+          <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                    <input type="hidden" name="cmd" value="_donations" />
+                    <input type="hidden" name="business" value="ifaes2017@gmail.com" />
+                    <input type="hidden" name="item_name" value="for charity" />
+                    <input type="hidden" name="currency_code" value="GBP" />
+                    <input class="btn btn-primary py-2 px-3" type="submit" name="Donate" value="Donate" title="PayPal - The safer, easier way to pay online!" />
+                    <!-- <a href="donate.html" class="btn btn-primary py-2 px-3">Donate</a> -->
+                </form>
 	      </div>
 	    </div>
 	  </nav>
@@ -345,7 +352,7 @@
               <ul class="list-unstyled">
                 <li><a href="./index.html" class="py-2 d-block">Home</a></li>
                 <li><a href="./about.html" class="py-2 d-block">Who we are</a></li>
-                <li><a href="./causes/index.html" class="py-2 d-block">Causes</a></li>
+                <!-- <li><a href="./causes/index.html" class="py-2 d-block">Causes</a></li> -->
                 <li><a href="#" class="py-2 d-block">Blog</a></li>
                 <li><a href="./contact.html" class="py-2 d-block">Contact</a></li>
               </ul>
